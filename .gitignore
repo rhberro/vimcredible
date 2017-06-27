@@ -1,0 +1,4 @@
+vendor/
+
+# Plugins
+autoload/vim-plug/
