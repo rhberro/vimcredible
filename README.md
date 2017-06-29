@@ -4,11 +4,16 @@ This is not a plugin, it's only my personal .vimrc file.
 
 ---
 
+- [**Getting Started**](#getting-started)
 - [**Installing**](#installing)
 - [**Contributing**](#contributing)
 - [**License**](#license)
 
 ---
+
+## Getting Started
+
+Before installing be sure to backup your current vim configuration files, this repository will replace everything.
 
 ## Installing
 
