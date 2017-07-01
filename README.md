@@ -13,7 +13,7 @@ This is not a plugin, it's only my personal ~/.vim/ folder.
 
 ## Getting Started
 
-Before installing be sure to backup your current vim configuration files, you should replace everything by this repository content.
+Before installing be sure to backup your current vim configuration folder, you should replace everything by this repository content.
 
 ## Installing
 
