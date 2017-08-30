@@ -1,0 +1,1 @@
+vendor/vim-material-theme/colors/material-theme.vim
