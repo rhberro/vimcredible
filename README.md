@@ -6,7 +6,6 @@ This is not a plugin, it's only my personal ~/.vim/ folder.
 
 - [**Getting Started**](#getting-started)
 - [**Installing**](#installing)
-- [**Plugins**](#plugins)
 - [**Contributing**](#contributing)
 - [**License**](#license)
 
@@ -23,12 +22,6 @@ Install it by cloning this repository with the recursive option.
 ```
 git clone --recursive git@github.com:rhberro/vimcredible.git ~/.vim/
 ```
-
-## Plugins
-
-The items below are the currently installed plugins.
-
-- [NERDTree](https://github.com/scrooloose/nerdtree)
 
 ## Contributing
 
