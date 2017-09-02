@@ -18,10 +18,10 @@ Before installing be sure to backup your current vim configuration folder, you s
 
 ## Installing
 
-Install it by cloning this repository.
+Install it by cloning this repository with the recursive option.
 
 ```
-git clone git@github.com:rhberro/vimcredible.git ~/.vim/
+git clone --recursive git@github.com:rhberro/vimcredible.git ~/.vim/
 ```
 
 ## Plugins
