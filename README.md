@@ -13,7 +13,7 @@ This is not a plugin, it's only my personal ~/.vim/ folder.
 
 ## Getting Started
 
-Before installing be sure to backup your current vim configuration folder, you should replace everything by this repository content.
+Before installing be sure to backup your current vim configuration file and folder, you should replace everything by this repository content.
 
 ## Installing
 
@@ -22,6 +22,14 @@ Install it by cloning this repository with the recursive option.
 ```
 git clone --recursive git@github.com:rhberro/vimcredible.git ~/.vim/
 ```
+
+Create a symbolic link of the .vimcredible file into your home folder and renamed it to .vimrc.
+
+```
+ln -s ~/.vim/.vimcredible ~/.vimrc
+```
+
+When you open your vim for the first time, some errors may appear, ignore it for now. After opening your vim run ```:PlugInstall``` to install the necessary plugins and you're good to go.
 
 ## Contributing
 
