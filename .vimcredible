@@ -17,3 +17,11 @@ colorscheme Sierra
 " Enable this if you're using macOS.
 " set macligatures
 set guifont=Fira\ Code:h18
+
+" ----------------------------------------------------------------------- CtrlP
+let g:ctrlp_custom_ignore = 'node_modules'
+
+
+" -------------------------------------------------------------------- NERDTree
+let NERDTreeShowHidden=1
+
