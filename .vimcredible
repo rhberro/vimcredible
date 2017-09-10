@@ -1,27 +1,62 @@
-set number
-set relativenumber
+if !exists("g:syntax_on")
+    syntax enable
+endif
 
-set ruler
-set colorcolumn=80,100,120
+inoremap <S-Tab> <C-d>
+
+" Arrows.
+nnoremap <Down> :resize -5<cr>
+nnoremap <Left> :vertical resize -5<cr>
+nnoremap <Right> :vertical resize +5<cr>
+nnoremap <Up> :resize +5<cr>
+
+nnoremap <expr> ZZ <Nop>
+
+map <leader><leader> :nohlsearch<cr>
 
 call plug#begin()
+    " Tools
     Plug 'scrooloose/nerdtree'
     Plug 'kien/ctrlp.vim'
+    Plug 'editorconfig/editorconfig-vim'
 
     " Theme.
     Plug 'AlessandroYorba/Sierra'
+
+    " Javascript.
+    Plug 'pangloss/vim-javascript'
 call plug#end()
 
 colorscheme Sierra
 
-" Enable this if you're using macOS.
-" set macligatures
+set autoindent
+set background=dark
+set backspace=indent,eol,start
+set colorcolumn=80,100,120
 set guifont=Fira\ Code:h18
+set hlsearch
+set incsearch
+set list
+set listchars=eol:¬,tab:>>,space:·
+set noswapfile
+set number
+set relativenumber
+set ruler
+set scrolloff
+set showmode
+set smarttab
+set wildmenu
+
 
 " ----------------------------------------------------------------------- CtrlP
 let g:ctrlp_custom_ignore = 'node_modules'
 
 
 " -------------------------------------------------------------------- NERDTree
+let NERDTreeMinimalUI=1
 let NERDTreeShowHidden=1
+let NERDTreeShowLineNumbers=1
+
+map <leader>nn :NERDTreeToggle<cr>
+map <leader>nf :NERDTreeFocus<cr>
 
