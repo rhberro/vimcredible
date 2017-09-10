@@ -1,6 +1,3 @@
 [submodule "vendor/vim-plug"]
 	path = vendor/vim-plug
 	url = https://github.com/junegunn/vim-plug
-[submodule "vendor/vim-material-theme"]
-	path = vendor/vim-material-theme
-	url = git@github.com:jdkanani/vim-material-theme.git
