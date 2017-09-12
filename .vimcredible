@@ -19,12 +19,14 @@ call plug#begin()
     Plug 'scrooloose/nerdtree'
     Plug 'kien/ctrlp.vim'
     Plug 'editorconfig/editorconfig-vim'
+    Plug 'Valloric/YouCompleteMe', { 'do': './install.py --tern-completer' }
 
     " Theme.
     Plug 'AlessandroYorba/Sierra'
 
     " Javascript.
     Plug 'pangloss/vim-javascript'
+    Plug 'mxw/vim-jsx'
 call plug#end()
 
 colorscheme Sierra
@@ -61,3 +63,5 @@ let NERDTreeShowLineNumbers=1
 map <leader>nn :NERDTreeToggle<cr>
 map <leader>nf :NERDTreeFocus<cr>
 
+" --------------------------------------------------------------------- vim-jsx
+let g:jsx_ext_required = 0
