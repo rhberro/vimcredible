@@ -51,6 +51,7 @@ set wildmenu
 " ----------------------------------------------------------------------- CtrlP
 let g:ctrlp_custom_ignore = 'node_modules'
 
+map <leader>p :CtrlP<cr>
 
 " -------------------------------------------------------------------- NERDTree
 let NERDTreeMinimalUI=1
