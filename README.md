@@ -29,7 +29,7 @@ Create a symbolic link of the .vimcredible file into your home folder and rename
 ln -s ~/.vim/.vimcredible ~/.vimrc
 ```
 
-When you open your vim for the first time, some errors may appear, ignore it for now. After opening your vim run ```:PlugInstall``` to install the necessary plugins and you're good to go.
+Don't forget to run ```:PlugInstall``` to install the current plugins.
 
 ## Contributing
 
