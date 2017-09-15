@@ -2,6 +2,7 @@ if !exists("g:syntax_on")
     syntax enable
 endif
 
+" Tab.
 inoremap <S-Tab> <C-d>
 
 " Arrows.
