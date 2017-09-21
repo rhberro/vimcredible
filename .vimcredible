@@ -23,14 +23,14 @@ call plug#begin()
     Plug 'Valloric/YouCompleteMe', { 'do': './install.py --tern-completer' }
 
     " Theme.
-    Plug 'AlessandroYorba/Sierra'
+    Plug 'jdkanani/vim-material-theme'
 
     " Javascript.
     Plug 'pangloss/vim-javascript'
     Plug 'mxw/vim-jsx'
 call plug#end()
 
-colorscheme Sierra
+colorscheme material-theme
 
 set autoindent
 set background=dark
