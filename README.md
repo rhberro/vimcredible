@@ -1,6 +1,6 @@
 # Vimcredible
 
-This is not a plugin, it's only my personal ~/.vim/ folder (actually working with JavaScript).
+This is not a plugin, it's only my personal ~/.vim/ folder.
 
 ---
 
