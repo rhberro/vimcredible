@@ -18,6 +18,7 @@ map <leader><leader> :nohlsearch<cr>
 call plug#begin()
     " Tools
     Plug 'scrooloose/nerdtree'
+    Plug 'Xuyuanp/nerdtree-git-plugin'
     Plug 'kien/ctrlp.vim'
     Plug 'editorconfig/editorconfig-vim'
     Plug 'Valloric/YouCompleteMe', { 'do': './install.py --tern-completer' }
