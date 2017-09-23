@@ -18,6 +18,7 @@ map <leader><leader> :nohlsearch<cr>
 call plug#begin()
     " Tools
     Plug 'scrooloose/nerdtree'
+    Plug 'scrooloose/nerdcommenter'
     Plug 'Xuyuanp/nerdtree-git-plugin'
     Plug 'kien/ctrlp.vim'
     Plug 'editorconfig/editorconfig-vim'
@@ -59,7 +60,6 @@ set showmode
 set smarttab
 set wildmenu
 
-
 " ----------------------------------------------------------------------- CtrlP
 let g:ctrlp_custom_ignore = 'node_modules'
 
@@ -79,3 +79,7 @@ let g:jsx_ext_required = 0
 " ----------------------------------------------------------------- vim-airline
 let g:airline#extensions#tabline#enabled = 1
 let g:airline_theme='onedark'
+
+" --------------------------------------------------------------- NERDCommenter
+let g:NERDSpaceDelims = 1
+
