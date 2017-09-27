@@ -77,8 +77,8 @@ let NERDTreeMinimalUI=1
 let NERDTreeShowHidden=1
 let NERDTreeShowLineNumbers=1
 
-map <leader>n :NERDTreeToggle<cr>
-map <leader>f :NERDTreeFind<cr>
+map <leader>ntt :NERDTreeToggle<cr>
+map <leader>ntf :NERDTreeFind<cr>
 
 " --------------------------------------------------------------------- vim-jsx
 let g:jsx_ext_required = 0
