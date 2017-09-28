@@ -29,7 +29,7 @@ Create a symbolic link of the .vimcredible file into your home folder and rename
 ln -s ~/.vim/.vimcredible ~/.vimrc
 ```
 
-Don't forget to run ```:PlugInstall``` to install the current plugins.
+Run ```:PlugInstall``` to install the current plugins.
 
 ## Contributing
 
