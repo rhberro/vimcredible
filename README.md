@@ -23,7 +23,7 @@ Install it by cloning this repository with the recursive option.
 git clone --recursive git@github.com:rhberro/vimcredible.git ~/.vim/
 ```
 
-Create a symbolic link of the .vimcredible file into your home folder and renamed it to .vimrc.
+Create a symbolic link of the .vimcredible file into your home folder and rename it to .vimrc.
 
 ```
 ln -s ~/.vim/.vimcredible ~/.vimrc
