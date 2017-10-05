@@ -46,7 +46,7 @@ call plug#end()
 colorscheme material-theme
 
 " Enable this if you're using MacVim.
-set macligatures
+" set macligatures
 set autoindent
 set background=dark
 set backspace=indent,eol,start
